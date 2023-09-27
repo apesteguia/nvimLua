@@ -1,15 +1,3 @@
---
--- ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗
--- ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║
--- ██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║
--- ██║╚██╗██║██╔══╝  ██║   ██║╚██╗ ██╔╝██║██║╚██╔╝██║
--- ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║
--- ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
---
--- File: config/init.lua
--- Description: Main configurations
--- Author: Kien Nguyen-Tuan <kiennt2609@gmail.com>
--- Lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system(

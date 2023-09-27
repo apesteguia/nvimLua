@@ -1,14 +1,3 @@
---
--- ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗
--- ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║
--- ██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║
--- ██║╚██╗██║██╔══╝  ██║   ██║╚██╗ ██╔╝██║██║╚██╔╝██║
--- ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║
--- ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
---
--- File: config/options.lua
--- Description: General Neovim settings and configuration
--- Author: Kien Nguyen-Tuan <kiennt2609@gmail.com>
 local cmd = vim.cmd
 -- Set options (global/buffer/windows-scoped)
 local opt = vim.opt
