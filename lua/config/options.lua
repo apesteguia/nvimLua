@@ -116,4 +116,4 @@ end
 
 -- Colorscheme
 -- By default, use rose-pine
-cmd.colorscheme("rose-pine")
+cmd.colorscheme("gruber-darker")

@@ -7,17 +7,20 @@ return { {
     function loadcolors()
       -- Rose-pine palette
       local rosepine = require("rose-pine.palette")
+
+
       local colors = {
-        bg = rosepine.base,
-        fg = rosepine.text,
-        yellow = rosepine.gold,
-        cyan = rosepine.foam,
-        black = rosepine.subtled,
-        green = rosepine.pine,
-        white = rosepine.text,
-        magenta = rosepine.iris,
-        blue = rosepine.rose,
-        red = rosepine.love
+        bg       = '#202328',
+        fg       = '#bbc2cf',
+        yellow   = '#ECBE7B',
+        cyan     = '#924991',
+        darkblue = '#081633',
+        green    = '#18be65',
+        orange   = '#FF8800',
+        violet   = '#a9a1e1',
+        magenta  = '#c678dd',
+        blue     = '#51afef',
+        red      = '#ec5f67',
       }
 
       -- Try to load pywal colors
@@ -145,14 +148,14 @@ return { {
     ins_left {
       -- mode component
       function()
-        return "▶"
+        return '▊'
       end,
       color = function()
         -- auto change color according to neovims mode
         local mode_color = {
-          n = colors.red,
-          i = colors.green,
-          v = colors.blue,
+          n = colors.blue,
+          i = colors.violet,
+          v = colors.red,
           [""] = colors.blue,
           V = colors.blue,
           c = colors.magenta,
@@ -242,7 +245,7 @@ return { {
       end,
       icon = " LSP:",
       color = {
-        fg = colors.cyan,
+        fg = colors.violet,
         gui = "bold"
       }
     }

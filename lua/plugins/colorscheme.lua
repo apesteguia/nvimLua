@@ -9,6 +9,10 @@ return {
 
   },
   {
+    "blazkowolf/gruber-darker.nvim",
+    name="gruber",
+  },
+  {
     -- Rose-pine - Soho vibes for Neovim
     "rose-pine/neovim",
     name = "rose-pine",
